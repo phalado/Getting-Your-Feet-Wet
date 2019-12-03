@@ -5,6 +5,8 @@ AllCops:
     - "config/**/*"
     - "Guardfile"
     - "Rakefile"
+    - "node_modules/**/*"
+    - "test/**/*"
   DisplayCopNames: true
 
 Metrics/LineLength:
